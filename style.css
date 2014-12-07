@@ -1,0 +1,242 @@
+/* @override 
+	http://webtodlong.com/mennweb/wp-content/themes/spirit-seed/style.css?seed */
+
+/*
+Theme Name: Spirit Seed
+Description: Super Minimal Starter theme
+Copyright: 2014
+Version: 0.1.2
+Author: SeedThemes
+Author URI: http://SeedThemes.com
+*/
+
+a{
+	color: #228aba;
+}
+a:hover{
+	opacity: 0.8;
+}
+a:active{
+	opacity: 0.6;
+}
+h1,h2,h3,h4{
+	font-weight: normal;
+}
+
+#page {
+	width: 900px;
+	margin: 20px auto 15px;
+}
+
+#masthead {
+	
+}
+
+	.site-branding {
+		float: left;
+	}
+		.site-title {
+			margin-top: 16px;
+			text-transform: uppercase;
+		}
+	
+	.main-navigation {
+		float: right;
+	}
+		
+		.main-navigation li {
+			float: left;
+			position: relative;
+		}
+		
+		.main-navigation a {
+			display: block;
+			text-decoration: none;
+			line-height: 1.3em;
+		}
+		
+		.main-navigation ul ul {
+			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+			float: left;
+			position: absolute;
+			top: 1.5em;
+			left: -999em;
+			z-index: 99999;
+		}
+		
+		.main-navigation ul ul ul {
+			left: -999em;
+			top: 0;
+		}
+		
+		.main-navigation ul ul a {
+			width: 200px;
+		}
+
+		
+		.main-navigation ul li:hover > ul {
+			left: auto;
+		}
+		
+		.main-navigation ul ul li:hover > ul {
+			left: 100%;
+		}
+
+		
+		.main-navigation .nav-menu {
+			display: none;
+		}
+		.main-navigation.toggled .nav-menu {
+			display: block;
+		}
+		
+		@media screen and (min-width: 768px) {
+			.menu-toggle {
+				display: none;
+			}
+			.main-navigation .nav-menu {
+				display: block;
+			}
+		}
+
+
+
+
+	.main-navigation ul ul{
+		background-color: #fff;
+		top: 100%;
+		-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+	}
+	.main-navigation  .menu-item-has-children > a {
+		padding-right: 18px;
+		position: relative;
+	}
+	.main-navigation  ul .menu-item-has-children > a:after {
+		content: "";
+		position: absolute;
+		display: block;
+		right: 6px;
+		top: 50%;
+		margin: -2px 0 0;
+		width: 0; 
+		height: 0; 
+		border-left: 4px solid transparent;
+		border-right: 4px solid transparent;
+		border-top: 4px solid #fff;
+	}
+	.main-navigation  ul ul .menu-item-has-children > a {
+		padding-right: 15px;
+	}
+	.main-navigation  ul ul .menu-item-has-children > a:after {
+		border-top: 4px solid transparent;
+		border-bottom: 4px solid transparent;
+		border-left: 5px solid #fff;
+	}
+	.main-navigation  ul ul ul {
+		top: 0;
+	}
+	.main-navigation  a{
+		padding: 10px 10px 7px;
+	}
+	.main-navigation  a:hover {
+		opacity: 0.8;
+	}
+	.main-navigation  a:active {
+		opacity: 0.6;
+	}
+	.main-navigation  ul ul a {
+		padding: 6px 15px;
+		border-top: 1px solid rgba(255, 255, 255, 0.16);
+	}
+	
+	.main-navigation  a:hover{
+		
+	}
+	.main-navigation  .current_page_item > a,
+	.main-navigation  .current-menu-item > a,
+	.main-navigation  .current-menu-ancestor > a,
+	body.single-post .main-navigation  .single-post > a {
+		opacity: 0.6;
+	}
+
+#content {
+	clear: both;
+}
+
+#primary {
+	min-height: 500px;
+	padding: 10px 0 20px;
+}
+	#content #primary .gallery img {
+		border: none;
+		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+		-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+	}
+	body.home h1.entry-title,
+	body.home h1.page-title {
+		display: none;
+	}
+	.item {
+		overflow: hidden;
+		margin: 0 0 20px;
+	}
+	.item .meta {
+		margin-bottom: 10px;
+	}
+	.meta {
+		color: #888;
+		margin-top: -10px;
+		margin-bottom: 20px;
+		font-size: 0.8em;
+	}
+	
+	.pagination {
+		margin: 20px 0 10px;
+	}
+	.pagination .page-numbers {
+		display: inline-block;
+		padding: 4px 10px;
+		border: 1px solid #ccc;
+		line-height: 1.3;
+		margin: 0 2px;
+	}
+	
+	#secondary {
+	font-size: 14px;
+	background-color: rgba(0, 0, 0, 0.04);
+	margin: 0 0 20px;
+	display: table;
+	width: 100%;
+	padding: 10px;
+}
+	.widget {
+		display: table-cell;
+		padding: 10px;
+		margin: 0;
+	}
+	.widget-title {
+		font-size: 1.1em;
+	}
+	
+	#s {
+		width: 140px;
+	}
+	
+	
+#colophon {
+	font-size: 12px;
+	color: #888;
+	overflow: hidden;
+	text-transform: uppercase;
+}
+	#colophon a{
+		color: #666;
+	}
+	.site-info {
+		float: left;
+	}
+	.site-credit {
+		float: right;
+		text-align: right;
+	}
